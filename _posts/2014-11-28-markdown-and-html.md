@@ -18,17 +18,54 @@ Here's an example of an image, which is included using Markdown:
 
 Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.
 
-{% highlight js %}
-// count to ten
-for (var i = 1; i <= 10; i++) {
-    console.log(i);
-}
+{% highlight java %}
 
-// count to twenty
-var j = 0;
-while (j < 20) {
-    j++;
-    console.log(j);
+public class ApplicationSingleton extends Application {
+
+    public static ApplicationSingleton ourInstance;
+
+    public ApplicationSingleton() {}
+
+    @Override
+    public void onCreate(){
+        super.onCreate();
+        ourInstance = this;
+        initFabric();
+        initOneSignal();
+        initRealm();
+        initHawk();
+        OneSignal.clearOneSignalNotifications();
+    }
+
+    public static ApplicationSingleton getContext() {
+        return ourInstance;
+    }
+
+    private void initRealm(){
+        Realm.init(this);
+        RealmConfiguration config = new RealmConfiguration.Builder()
+                .name(Realm.DEFAULT_REALM_NAME)
+                .schemaVersion(22)
+                .deleteRealmIfMigrationNeeded()
+                .build();
+        Realm.setDefaultConfiguration(config);
+    }
+
+    private void initOneSignal(){
+        OneSignal.startInit(this)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .setNotificationOpenedHandler(new PushMessagesHandler())
+                .init();
+    }
+
+    private void initHawk(){
+        Hawk.init(this).build();
+    }
+
+    private void initFabric(){
+        Fabric.with(this, new Crashlytics());
+    }
+
 }
 {% endhighlight %}
 
