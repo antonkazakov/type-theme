@@ -15,8 +15,8 @@ theme_settings:
   #  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   #  <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   # header_text_feature_image:
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+  # footer_text: >
+  # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
@@ -26,17 +26,17 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "antonkazakov"
   google_plus:
   instagram:
   linkedin:  # Full URL
   pinterest:
   reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
+  soundcloud:""
+  stack_exchange: "https://stackoverflow.com/users/3416163/anton-kazakov" # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "
   wordpress:
   youtube:
 
