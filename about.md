@@ -11,6 +11,8 @@ I prefer talking and dealing with Java, Kotlin and Android. Love reactive progra
 
 Wanna offer me a job?
 
+You can whisper me in [Telegram](http://telegram.me/antonkazakov)
+
 [My CV](https://stackoverflow.com/cv/antonkazakov) 
 
 [Мое резюме на русском](https://stackoverflow.com/cv/antonkazakov)
