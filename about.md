@@ -2,11 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
 ---
+Welcome.
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+I've started developing Android apps for fun back in 2013. Hobby became job in 2015. Successfully developed and shipped more than 5 applications. Worked alone, in small teams and for tech giants. Currently working for Sberbank Technologies as Android Software Engineer.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+I prefer talking and dealing with Java, Kotlin and Android. Love reactive programming, Android performance talks, microservices and new languages like Kotlin and Dart. 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+:page_facing_up: Take a look at my [CV](https://stackoverflow.com/cv/antonkazakov) 
+
+:page_facing_up: :ru: Мое резюме на русском
