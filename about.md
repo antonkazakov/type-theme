@@ -9,11 +9,11 @@ I've started developing Android apps for fun back in 2013. Hobby became job in 2
 
 I prefer talking and dealing with Java, Kotlin and Android. Love reactive programming, Android performance talks, microservices and new languages like Kotlin and Dart. 
 
-# Wanna offer me a job?
+### Wanna offer me a job?
 
 You can whisper me in [Telegram](http://telegram.me/antonkazakov)
 
-# Wanna take a look where I spent last few years?
+### Wanna take a look where I spent last few years?
 
 [My CV](https://stackoverflow.com/cv/antonkazakov) 
 
