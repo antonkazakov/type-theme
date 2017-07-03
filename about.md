@@ -11,4 +11,4 @@ I prefer talking and dealing with Java, Kotlin and Android. Love reactive progra
 
 :page_facing_up: Take a look at my [CV](https://stackoverflow.com/cv/antonkazakov) 
 
-:page_facing_up: :ru: Мое резюме на русском
+:page_facing_up: :ru: [Мое резюме на русском](https://stackoverflow.com/cv/antonkazakov)
